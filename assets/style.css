@@ -1,0 +1,9 @@
+.header {
+  text-align: center;
+}
+
+#towns {
+  background-color: blue;
+  color: white;
+  font: 25px;
+}
