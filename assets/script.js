@@ -2,9 +2,9 @@ var query = document.getElementById("form1");
 var btn = document.getElementById("btn");
 var towns = document.getElementById("towns");
 var geoUrl =
-  "https://api.openweathermap.org/geo/1.0/direct?&appid=99886c59c78ad6d91177b0fde1bce458&q=";
+  "http://api.openweathermap.org/geo/1.0/direct?&appid=99886c59c78ad6d91177b0fde1bce458&q=";
 var cityUrl =
-  "https://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=99886c59c78ad6d91177b0fde1bce458";
+  "http://api.openweathermap.org/data/2.5/forecast?&units=imperial&appid=99886c59c78ad6d91177b0fde1bce458";
 
 const d = new Date();
 let day = d.getDate();
