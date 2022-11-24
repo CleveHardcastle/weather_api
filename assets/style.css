@@ -2,8 +2,19 @@
   text-align: center;
 }
 
-#towns {
-  background-color: blue;
-  color: white;
-  font: 25px;
+#today {
+  border: 5px solid black;
+  height: 100px;
+}
+
+.container {
+  margin: 15px;
+}
+
+.card-body {
+  height: 112px;
+}
+
+#btn {
+  margin-left: 5px;
 }
